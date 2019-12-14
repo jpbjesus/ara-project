@@ -1,0 +1,75 @@
+Dec 14 11:26:29.290 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 14 11:26:29.291 HYPERVISOR: Started on IP = localhost, TCP port = 51255.
+Dec 14 11:26:29.299 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 14 11:26:29.300 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips 
+Dec 14 11:26:29.300 GENERAL: working_dir=/Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips
+Dec 14 11:26:29.300 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/379f3e26-43db-4109-b8d0-b0361e8253a0 
+Dec 14 11:26:29.300 GENERAL: working_dir=/Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/379f3e26-43db-4109-b8d0-b0361e8253a0
+Dec 14 11:26:29.300 HYPERVISOR: exec_cmd: vm create Faro 8 c7200 
+Dec 14 11:26:29.300 VM: VM Faro created.
+Dec 14 11:26:29.301 HYPERVISOR: exec_cmd: vm set_con_tcp_port Faro 5011 
+Dec 14 11:26:29.301 HYPERVISOR: exec_cmd: c7200 get_mac_addr Faro 
+Dec 14 11:26:29.301 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:29.301 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 0 0 C7200-IO-FE 
+Dec 14 11:26:29.302 HYPERVISOR: exec_cmd: vm set_disk0 Faro 0 
+Dec 14 11:26:29.302 HYPERVISOR: exec_cmd: vm set_ios Faro /Users/diniscanastro/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 14 11:26:29.303 HYPERVISOR: exec_cmd: c7200 set_mac_addr Faro ca08.04f3.0000 
+Dec 14 11:26:29.303 HYPERVISOR: exec_cmd: vm set_nvram Faro 512 
+Dec 14 11:26:29.303 HYPERVISOR: exec_cmd: vm set_ram Faro 512 
+Dec 14 11:26:29.304 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:29.304 HYPERVISOR: exec_cmd: vm slot_remove_binding Faro 0 0 
+Dec 14 11:26:29.304 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:29.305 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 0 0 C7200-IO-2FE 
+Dec 14 11:26:29.305 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:29.305 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 1 0 PA-2FE-TX 
+Dec 14 11:26:29.306 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:29.306 HYPERVISOR: exec_cmd: vm slot_add_binding Faro 2 0 PA-2FE-TX 
+Dec 14 11:26:33.137 HYPERVISOR: exec_cmd: nio create_udp udp-452cbfa3-ef4a-4f7e-80f4-d54fda94ce1a 10070 127.0.0.1 10071 
+Dec 14 11:26:33.362 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 2 0 udp-452cbfa3-ef4a-4f7e-80f4-d54fda94ce1a 
+Dec 14 11:26:33.363 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:34.718 HYPERVISOR: exec_cmd: nio create_udp udp-cf193ff8-b5a5-47bc-ab17-da23b9186536 10102 127.0.0.1 10103 
+Dec 14 11:26:34.720 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 0 1 udp-cf193ff8-b5a5-47bc-ab17-da23b9186536 
+Dec 14 11:26:34.720 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:26:34.807 HYPERVISOR: exec_cmd: nio create_udp udp-675c564d-3422-4465-990f-a8c7bb5928e5 10106 127.0.0.1 10107 
+Dec 14 11:26:34.808 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 1 0 udp-675c564d-3422-4465-990f-a8c7bb5928e5 
+Dec 14 11:26:34.809 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:39:13.489 HYPERVISOR: exec_cmd: vm set_ghost_status Faro 2 
+Dec 14 11:39:13.491 HYPERVISOR: exec_cmd: vm set_ghost_file Faro /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 14 11:39:13.492 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:39:13.492 HYPERVISOR: exec_cmd: vm set_config Faro configs/i8_startup-config.cfg 
+Dec 14 11:39:13.493 HYPERVISOR: exec_cmd: vm start Faro 
+Dec 14 11:39:43.738 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 11:40:13.744 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 11:45:49.224 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:45:49.224 HYPERVISOR: exec_cmd: vm stop Faro 
+Dec 14 11:45:49.363 VM: VM Faro shutdown.
+Dec 14 11:45:49.363 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 11:55:24.329 HYPERVISOR: exec_cmd: vm set_ghost_status Faro 2 
+Dec 14 11:55:24.329 HYPERVISOR: exec_cmd: vm set_ghost_file Faro /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 14 11:55:24.330 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 11:55:24.331 HYPERVISOR: exec_cmd: vm set_config Faro configs/i8_startup-config.cfg 
+Dec 14 11:55:24.331 HYPERVISOR: exec_cmd: vm start Faro 
+Dec 14 11:58:54.570 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 12:32:01.750 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 12:32:01.751 HYPERVISOR: exec_cmd: vm stop Faro 
+Dec 14 12:32:01.891 VM: VM Faro shutdown.
+Dec 14 12:32:01.893 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 12:32:02.595 HYPERVISOR: exec_cmd: vm set_ghost_status Faro 2 
+Dec 14 12:32:02.596 HYPERVISOR: exec_cmd: vm set_ghost_file Faro /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 14 12:32:02.596 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 12:32:02.597 HYPERVISOR: exec_cmd: vm set_config Faro configs/i8_startup-config.cfg configs/i8_private-config.cfg 
+Dec 14 12:32:02.597 HYPERVISOR: exec_cmd: vm start Faro 
+Dec 14 12:38:02.889 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 12:50:26.185 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 12:50:26.197 HYPERVISOR: exec_cmd: vm stop Faro 
+Dec 14 12:50:26.341 VM: VM Faro shutdown.
+Dec 14 12:50:26.342 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 12:50:57.593 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 12:50:57.594 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 12:50:57.812 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 14 12:50:57.812 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 14 12:50:57.814 HYPERVISOR: exec_cmd: vm delete Faro 
+Dec 14 12:50:57.814 VM: VM Faro destroyed.
+Dec 14 12:50:57.815 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 14 12:50:57.939 HYPERVISOR: Stopped.
+Dec 14 12:50:57.939 GENERAL: reset done.

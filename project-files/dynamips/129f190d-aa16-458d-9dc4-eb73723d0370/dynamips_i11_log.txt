@@ -1,0 +1,75 @@
+Dec 14 11:26:29.248 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 14 11:26:29.249 HYPERVISOR: Started on IP = localhost, TCP port = 51252.
+Dec 14 11:26:29.259 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 14 11:26:29.259 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips 
+Dec 14 11:26:29.259 GENERAL: working_dir=/Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips
+Dec 14 11:26:29.259 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/5aad5a93-10e2-48d5-a1a8-343fecd2e654 
+Dec 14 11:26:29.259 GENERAL: working_dir=/Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/5aad5a93-10e2-48d5-a1a8-343fecd2e654
+Dec 14 11:26:29.259 HYPERVISOR: exec_cmd: vm create Oeiras 7 c7200 
+Dec 14 11:26:29.260 VM: VM Oeiras created.
+Dec 14 11:26:29.260 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oeiras 5010 
+Dec 14 11:26:29.260 HYPERVISOR: exec_cmd: c7200 get_mac_addr Oeiras 
+Dec 14 11:26:29.260 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:29.261 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-FE 
+Dec 14 11:26:29.261 HYPERVISOR: exec_cmd: vm set_disk0 Oeiras 0 
+Dec 14 11:26:29.262 HYPERVISOR: exec_cmd: vm set_ios Oeiras /Users/diniscanastro/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 14 11:26:29.262 HYPERVISOR: exec_cmd: c7200 set_mac_addr Oeiras ca07.04ed.0000 
+Dec 14 11:26:29.262 HYPERVISOR: exec_cmd: vm set_nvram Oeiras 512 
+Dec 14 11:26:29.263 HYPERVISOR: exec_cmd: vm set_ram Oeiras 512 
+Dec 14 11:26:29.263 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:29.263 HYPERVISOR: exec_cmd: vm slot_remove_binding Oeiras 0 0 
+Dec 14 11:26:29.264 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:29.264 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-2FE 
+Dec 14 11:26:29.264 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:29.264 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 1 0 PA-2FE-TX 
+Dec 14 11:26:29.265 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:29.265 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 2 0 PA-2FE-TX 
+Dec 14 11:26:32.123 HYPERVISOR: exec_cmd: nio create_udp udp-a345a495-56de-40f1-bfdb-cefa76900326 10052 127.0.0.1 10053 
+Dec 14 11:26:32.346 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 0 udp-a345a495-56de-40f1-bfdb-cefa76900326 
+Dec 14 11:26:32.347 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:34.379 HYPERVISOR: exec_cmd: nio create_udp udp-90bc20c8-207d-4b4f-a527-961eeead6fa4 10094 127.0.0.1 10095 
+Dec 14 11:26:34.381 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 1 0 udp-90bc20c8-207d-4b4f-a527-961eeead6fa4 
+Dec 14 11:26:34.382 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:26:34.707 HYPERVISOR: exec_cmd: nio create_udp udp-b213006f-77d9-438e-9d59-f5785a66bd78 10100 127.0.0.1 10101 
+Dec 14 11:26:34.709 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 1 udp-b213006f-77d9-438e-9d59-f5785a66bd78 
+Dec 14 11:26:34.709 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:39:05.014 HYPERVISOR: exec_cmd: vm set_ghost_status Oeiras 2 
+Dec 14 11:39:05.016 HYPERVISOR: exec_cmd: vm set_ghost_file Oeiras /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 14 11:39:05.017 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:39:05.017 HYPERVISOR: exec_cmd: vm set_config Oeiras configs/i7_startup-config.cfg 
+Dec 14 11:39:05.018 HYPERVISOR: exec_cmd: vm start Oeiras 
+Dec 14 11:39:35.244 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 11:40:05.248 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 11:45:49.220 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:45:49.222 HYPERVISOR: exec_cmd: vm stop Oeiras 
+Dec 14 11:45:49.338 VM: VM Oeiras shutdown.
+Dec 14 11:45:49.339 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 11:55:24.330 HYPERVISOR: exec_cmd: vm set_ghost_status Oeiras 2 
+Dec 14 11:55:24.331 HYPERVISOR: exec_cmd: vm set_ghost_file Oeiras /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 14 11:55:24.331 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 11:55:24.332 HYPERVISOR: exec_cmd: vm set_config Oeiras configs/i7_startup-config.cfg 
+Dec 14 11:55:24.333 HYPERVISOR: exec_cmd: vm start Oeiras 
+Dec 14 12:01:54.635 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 12:11:54.712 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 12:32:01.736 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 12:32:01.739 HYPERVISOR: exec_cmd: vm stop Oeiras 
+Dec 14 12:32:01.865 VM: VM Oeiras shutdown.
+Dec 14 12:32:01.866 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 12:32:02.529 HYPERVISOR: exec_cmd: vm set_ghost_status Oeiras 2 
+Dec 14 12:32:02.532 HYPERVISOR: exec_cmd: vm set_ghost_file Oeiras /Users/diniscanastro/Documentos/Escola/A4S1/ARA/Melhoria/ara-project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Dec 14 12:32:02.535 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 12:32:02.563 HYPERVISOR: exec_cmd: vm set_config Oeiras configs/i7_startup-config.cfg configs/i7_private-config.cfg 
+Dec 14 12:32:02.573 HYPERVISOR: exec_cmd: vm start Oeiras 
+Dec 14 12:50:26.169 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 12:50:26.171 HYPERVISOR: exec_cmd: vm stop Oeiras 
+Dec 14 12:50:26.349 VM: VM Oeiras shutdown.
+Dec 14 12:50:26.352 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 12:50:57.591 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 12:50:57.593 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 12:50:58.178 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 14 12:50:58.178 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 14 12:50:58.181 HYPERVISOR: exec_cmd: vm delete Oeiras 
+Dec 14 12:50:58.181 VM: VM Oeiras destroyed.
+Dec 14 12:50:58.182 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 14 12:50:58.468 HYPERVISOR: Stopped.
+Dec 14 12:50:58.468 GENERAL: reset done.
