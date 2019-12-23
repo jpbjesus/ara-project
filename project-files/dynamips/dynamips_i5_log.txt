@@ -1,0 +1,19 @@
+Dec 23 10:08:28.236 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 10:08:28.237 HYPERVISOR: Started on IP = localhost, TCP port = 54330.
+Dec 23 10:08:28.722 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 10:08:28.722 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips 
+Dec 23 10:08:28.722 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips
+Dec 23 10:08:28.723 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Dec 23 10:08:57.720 HYPERVISOR: exec_cmd: nio create_udp udp-083fbae4-3bd4-44b7-be09-9e4b1f51bf54 10022 127.0.0.1 10021 
+Dec 23 10:08:57.721 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-083fbae4-3bd4-44b7-be09-9e4b1f51bf54 
+Dec 23 10:08:57.722 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-083fbae4-3bd4-44b7-be09-9e4b1f51bf54 1 
+Dec 23 10:09:00.341 HYPERVISOR: exec_cmd: nio create_udp udp-45de650b-1072-4e6e-9a5e-24fefc3d5745 10025 127.0.0.1 10026 
+Dec 23 10:09:00.341 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-45de650b-1072-4e6e-9a5e-24fefc3d5745 
+Dec 23 10:09:00.347 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-45de650b-1072-4e6e-9a5e-24fefc3d5745 1 
+Dec 23 10:09:07.017 HYPERVISOR: exec_cmd: ethsw rename Switch1 iCore 
+Dec 23 10:09:07.017 HYPERVISOR: exec_cmd: ethsw set_access_port iCore udp-083fbae4-3bd4-44b7-be09-9e4b1f51bf54 1 
+Dec 23 10:09:07.018 HYPERVISOR: exec_cmd: ethsw set_access_port iCore udp-45de650b-1072-4e6e-9a5e-24fefc3d5745 1 
+Dec 23 10:09:07.063 HYPERVISOR: exec_cmd: ethsw set_access_port iCore udp-083fbae4-3bd4-44b7-be09-9e4b1f51bf54 1 
+Dec 23 10:09:07.063 HYPERVISOR: exec_cmd: ethsw set_access_port iCore udp-45de650b-1072-4e6e-9a5e-24fefc3d5745 1 
+Dec 23 10:55:03.413 HYPERVISOR: Stopped.
+Dec 23 10:55:03.451 GENERAL: reset done.

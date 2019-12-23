@@ -1,0 +1,12 @@
+Dec 23 10:14:25.675 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 10:14:25.676 HYPERVISOR: Started on IP = localhost, TCP port = 57403.
+Dec 23 10:14:26.165 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 10:14:26.166 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips 
+Dec 23 10:14:26.166 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips
+Dec 23 10:14:26.166 HYPERVISOR: exec_cmd: ethsw create Switch3 
+Dec 23 10:14:46.016 HYPERVISOR: exec_cmd: ethsw rename Switch3 netB2 
+Dec 23 10:16:14.586 HYPERVISOR: exec_cmd: nio create_udp udp-46a2ee8d-10d1-4133-994c-c0fd457abd74 10090 127.0.0.1 10089 
+Dec 23 10:16:14.587 HYPERVISOR: exec_cmd: ethsw add_nio netB2 udp-46a2ee8d-10d1-4133-994c-c0fd457abd74 
+Dec 23 10:16:14.588 HYPERVISOR: exec_cmd: ethsw set_access_port netB2 udp-46a2ee8d-10d1-4133-994c-c0fd457abd74 1 
+Dec 23 10:55:03.414 HYPERVISOR: Stopped.
+Dec 23 10:55:03.443 GENERAL: reset done.

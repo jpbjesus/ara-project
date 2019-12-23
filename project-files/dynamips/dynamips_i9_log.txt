@@ -1,0 +1,63 @@
+Dec 23 10:09:55.404 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 10:09:55.405 HYPERVISOR: Started on IP = localhost, TCP port = 54437.
+Dec 23 10:09:55.892 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 10:09:55.892 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips 
+Dec 23 10:09:55.892 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips
+Dec 23 10:09:55.893 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips\5d39a5e3-9b70-4284-a9cf-71db16c25599 
+Dec 23 10:09:55.893 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips\5d39a5e3-9b70-4284-a9cf-71db16c25599
+Dec 23 10:09:55.893 HYPERVISOR: exec_cmd: vm create R1 7 c7200 
+Dec 23 10:09:55.894 VM: VM R1 created.
+Dec 23 10:09:55.894 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5008 
+Dec 23 10:09:55.894 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Dec 23 10:09:55.895 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 23 10:09:55.895 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Dec 23 10:09:55.895 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 10:09:55.896 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Dec 23 10:09:55.896 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Dec 23 10:09:55.896 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Dec 23 10:09:55.896 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Dec 23 10:09:55.897 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 23 10:09:55.897 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+Dec 23 10:09:55.897 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 23 10:09:55.897 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+Dec 23 10:09:55.898 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 23 10:09:55.898 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Dec 23 10:09:55.898 HYPERVISOR: exec_cmd: vm get_status R1 
+Dec 23 10:09:55.898 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-2FE-TX 
+Dec 23 10:09:55.959 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 10:09:56.584 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 10:09:59.288 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 10:09:59.289 HYPERVISOR: exec_cmd: vm rename R1 Faro 
+Dec 23 10:09:59.349 HYPERVISOR: exec_cmd: vm set_ios Faro C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 10:12:06.687 HYPERVISOR: exec_cmd: nio create_udp udp-bf9702f0-34f5-41fd-b198-c75a4ad504f2 10073 127.0.0.1 10074 
+Dec 23 10:12:06.909 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 0 1 udp-bf9702f0-34f5-41fd-b198-c75a4ad504f2 
+Dec 23 10:12:06.910 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 23 10:12:12.759 HYPERVISOR: exec_cmd: nio create_udp udp-fb43a7c2-55ba-4697-8299-644d7cca0137 10077 127.0.0.1 10078 
+Dec 23 10:12:12.761 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Faro 1 0 udp-fb43a7c2-55ba-4697-8299-644d7cca0137 
+Dec 23 10:12:12.761 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 23 10:23:03.307 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Dec 23 10:23:03.308 VM: VM Ghost created.
+Dec 23 10:23:03.309 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 10:23:03.309 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Dec 23 10:23:03.309 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost' 
+Dec 23 10:23:03.309 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Dec 23 10:23:03.309 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 23 10:23:03.310 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Dec 23 10:23:03.310 HYPERVISOR: exec_cmd: vm start Ghost 
+Dec 23 10:23:03.357 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Dec 23 10:23:03.627 VM: VM Ghost shutdown.
+Dec 23 10:23:03.627 VM: VM Ghost destroyed.
+Dec 23 10:23:03.635 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 23 10:23:03.637 HYPERVISOR: exec_cmd: vm set_config Faro configs\i7_startup-config.cfg 
+Dec 23 10:23:03.637 HYPERVISOR: exec_cmd: vm start Faro 
+Dec 23 10:23:34.755 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 23 10:27:00.954 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 23 10:27:00.995 HYPERVISOR: exec_cmd: vm set_idle_pc_online Faro 0 0x62cbf334 
+Dec 23 10:40:37.293 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 23 10:54:48.130 HYPERVISOR: exec_cmd: vm get_status Faro 
+Dec 23 10:54:48.130 HYPERVISOR: exec_cmd: vm stop Faro 
+Dec 23 10:54:48.260 VM: VM Faro shutdown.
+Dec 23 10:54:48.260 HYPERVISOR: exec_cmd: vm extract_config Faro 
+Dec 23 10:55:03.413 HYPERVISOR: Stopped.
+Dec 23 10:55:03.413 VM: VM Faro destroyed.
+Dec 23 10:55:03.427 GENERAL: reset done.

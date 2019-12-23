@@ -1,0 +1,26 @@
+Dec 23 10:09:19.702 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 10:09:19.703 HYPERVISOR: Started on IP = localhost, TCP port = 54391.
+Dec 23 10:09:20.190 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 10:09:20.190 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips 
+Dec 23 10:09:20.191 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips
+Dec 23 10:09:20.191 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Dec 23 10:09:23.513 HYPERVISOR: exec_cmd: ethsw rename Switch1 eCore 
+Dec 23 10:11:05.796 HYPERVISOR: exec_cmd: nio create_udp udp-91a1882a-3f17-431d-9ac5-6eabf5f3d01c 10036 127.0.0.1 10035 
+Dec 23 10:11:05.796 HYPERVISOR: exec_cmd: ethsw add_nio eCore udp-91a1882a-3f17-431d-9ac5-6eabf5f3d01c 
+Dec 23 10:11:05.814 HYPERVISOR: exec_cmd: ethsw set_access_port eCore udp-91a1882a-3f17-431d-9ac5-6eabf5f3d01c 1 
+Dec 23 10:11:08.197 HYPERVISOR: exec_cmd: nio create_udp udp-bd3b7a9a-4fd9-4899-aad3-46a39309887a 10040 127.0.0.1 10039 
+Dec 23 10:11:08.197 HYPERVISOR: exec_cmd: ethsw add_nio eCore udp-bd3b7a9a-4fd9-4899-aad3-46a39309887a 
+Dec 23 10:11:08.213 HYPERVISOR: exec_cmd: ethsw set_access_port eCore udp-bd3b7a9a-4fd9-4899-aad3-46a39309887a 1 
+Dec 23 10:11:12.921 HYPERVISOR: exec_cmd: nio create_udp udp-42306690-ec39-4b66-bf39-0dd7be967b5a 10044 127.0.0.1 10043 
+Dec 23 10:11:12.922 HYPERVISOR: exec_cmd: ethsw add_nio eCore udp-42306690-ec39-4b66-bf39-0dd7be967b5a 
+Dec 23 10:11:12.927 HYPERVISOR: exec_cmd: ethsw set_access_port eCore udp-42306690-ec39-4b66-bf39-0dd7be967b5a 1 
+Dec 23 10:11:30.278 HYPERVISOR: exec_cmd: ethsw remove_nio eCore udp-42306690-ec39-4b66-bf39-0dd7be967b5a 
+Dec 23 10:11:30.284 HYPERVISOR: exec_cmd: nio delete udp-42306690-ec39-4b66-bf39-0dd7be967b5a 
+Dec 23 10:11:34.295 HYPERVISOR: exec_cmd: nio create_udp udp-4d558431-f50c-403f-bcc5-33eb9036884e 10044 127.0.0.1 10043 
+Dec 23 10:11:34.295 HYPERVISOR: exec_cmd: ethsw add_nio eCore udp-4d558431-f50c-403f-bcc5-33eb9036884e 
+Dec 23 10:11:34.306 HYPERVISOR: exec_cmd: ethsw set_access_port eCore udp-4d558431-f50c-403f-bcc5-33eb9036884e 1 
+Dec 23 10:11:36.501 HYPERVISOR: exec_cmd: nio create_udp udp-b3547682-31c8-4bb4-b294-428c6ca9fcda 10048 127.0.0.1 10047 
+Dec 23 10:11:36.501 HYPERVISOR: exec_cmd: ethsw add_nio eCore udp-b3547682-31c8-4bb4-b294-428c6ca9fcda 
+Dec 23 10:11:36.506 HYPERVISOR: exec_cmd: ethsw set_access_port eCore udp-b3547682-31c8-4bb4-b294-428c6ca9fcda 1 
+Dec 23 10:55:03.413 HYPERVISOR: Stopped.
+Dec 23 10:55:03.505 GENERAL: reset done.
