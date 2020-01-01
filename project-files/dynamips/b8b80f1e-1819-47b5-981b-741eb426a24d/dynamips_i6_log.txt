@@ -1,0 +1,10 @@
+Dec 23 11:03:12.954 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 11:03:12.955 HYPERVISOR: Started on IP = localhost, TCP port = 61897.
+Dec 23 11:03:13.443 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 11:03:13.443 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
+Dec 23 11:03:13.443 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
+Dec 23 11:03:13.444 HYPERVISOR: exec_cmd: ethsw create eCore 
+Dec 23 11:03:22.610 HYPERVISOR: exec_cmd: ethsw delete eCore 
+Dec 23 11:03:22.614 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 23 11:03:22.951 HYPERVISOR: Stopped.
+Dec 23 11:03:22.951 GENERAL: reset done.

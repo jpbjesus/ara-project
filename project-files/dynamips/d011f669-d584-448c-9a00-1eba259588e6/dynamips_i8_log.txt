@@ -1,0 +1,36 @@
+Dec 23 11:03:14.031 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 11:03:14.032 HYPERVISOR: Started on IP = localhost, TCP port = 61903.
+Dec 23 11:03:14.519 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 11:03:14.519 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
+Dec 23 11:03:14.520 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
+Dec 23 11:03:14.520 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\b8b80f1e-1819-47b5-981b-741eb426a24d 
+Dec 23 11:03:14.520 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\b8b80f1e-1819-47b5-981b-741eb426a24d
+Dec 23 11:03:14.520 HYPERVISOR: exec_cmd: vm create Oeiras 6 c7200 
+Dec 23 11:03:14.533 VM: VM Oeiras created.
+Dec 23 11:03:14.534 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oeiras 5007 
+Dec 23 11:03:14.534 HYPERVISOR: exec_cmd: c7200 get_mac_addr Oeiras 
+Dec 23 11:03:14.534 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:14.534 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-FE 
+Dec 23 11:03:14.535 HYPERVISOR: exec_cmd: vm set_disk0 Oeiras 0 
+Dec 23 11:03:14.535 HYPERVISOR: exec_cmd: vm set_exec_area Oeiras 64 
+Dec 23 11:03:14.535 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:14.536 HYPERVISOR: exec_cmd: vm set_idle_pc Oeiras 0x62cbf334 
+Dec 23 11:03:14.536 HYPERVISOR: exec_cmd: vm set_ios Oeiras C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 11:03:14.536 HYPERVISOR: exec_cmd: c7200 set_mac_addr Oeiras ca06.17f0.0000 
+Dec 23 11:03:14.537 HYPERVISOR: exec_cmd: vm set_nvram Oeiras 512 
+Dec 23 11:03:14.537 HYPERVISOR: exec_cmd: vm set_ram Oeiras 512 
+Dec 23 11:03:14.537 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:14.537 HYPERVISOR: exec_cmd: vm slot_remove_binding Oeiras 0 0 
+Dec 23 11:03:14.538 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:14.538 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-2FE 
+Dec 23 11:03:14.538 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:14.538 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 1 0 PA-2FE-TX 
+Dec 23 11:03:14.539 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:14.539 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 2 0 PA-2FE-TX 
+Dec 23 11:03:22.612 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Dec 23 11:03:22.616 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
+Dec 23 11:03:22.619 HYPERVISOR: exec_cmd: vm delete Oeiras 
+Dec 23 11:03:22.619 VM: VM Oeiras destroyed.
+Dec 23 11:03:22.634 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 23 11:03:23.026 HYPERVISOR: Stopped.
+Dec 23 11:03:23.026 GENERAL: reset done.

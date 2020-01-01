@@ -1,74 +1,54 @@
-Dec 23 10:09:28.963 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Dec 23 10:09:28.964 HYPERVISOR: Started on IP = localhost, TCP port = 54408.
-Dec 23 10:09:29.452 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 23 10:09:29.452 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips 
-Dec 23 10:09:29.452 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips
-Dec 23 10:09:29.453 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips\b8b80f1e-1819-47b5-981b-741eb426a24d 
-Dec 23 10:09:29.453 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips\b8b80f1e-1819-47b5-981b-741eb426a24d
-Dec 23 10:09:29.453 HYPERVISOR: exec_cmd: vm create R2 6 c7200 
-Dec 23 10:09:29.454 VM: VM R2 created.
-Dec 23 10:09:29.455 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
-Dec 23 10:09:29.455 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
-Dec 23 10:09:29.455 HYPERVISOR: exec_cmd: vm get_status R2 
-Dec 23 10:09:29.455 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
-Dec 23 10:09:29.456 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:09:29.456 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
-Dec 23 10:09:29.456 HYPERVISOR: exec_cmd: vm set_ram R2 512 
-Dec 23 10:09:29.457 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
-Dec 23 10:09:29.457 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
-Dec 23 10:09:29.457 HYPERVISOR: exec_cmd: vm get_status R2 
-Dec 23 10:09:29.457 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
-Dec 23 10:09:29.458 HYPERVISOR: exec_cmd: vm get_status R2 
-Dec 23 10:09:29.458 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
-Dec 23 10:09:29.458 HYPERVISOR: exec_cmd: vm get_status R2 
-Dec 23 10:09:29.458 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
-Dec 23 10:09:29.458 HYPERVISOR: exec_cmd: vm get_status R2 
-Dec 23 10:09:29.459 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-2FE-TX 
-Dec 23 10:09:29.524 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:09:38.209 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:09:42.413 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:09:48.689 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:09:48.689 HYPERVISOR: exec_cmd: vm rename R2 Oeiras 
-Dec 23 10:09:48.745 HYPERVISOR: exec_cmd: vm set_ios Oeiras C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:11:12.698 HYPERVISOR: exec_cmd: nio create_udp udp-b907ee8f-50da-4698-91a5-2536e378d60b 10045 127.0.0.1 10046 
-Dec 23 10:11:12.914 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 0 udp-b907ee8f-50da-4698-91a5-2536e378d60b 
-Dec 23 10:11:12.915 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:11:30.274 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:11:30.274 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding Oeiras 0 0 
-Dec 23 10:11:30.275 HYPERVISOR: exec_cmd: nio delete udp-b907ee8f-50da-4698-91a5-2536e378d60b 
-Dec 23 10:11:36.492 HYPERVISOR: exec_cmd: nio create_udp udp-b6f0b860-d908-4d18-8331-7ffe6d3ba468 10049 127.0.0.1 10050 
-Dec 23 10:11:36.494 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 0 udp-b6f0b860-d908-4d18-8331-7ffe6d3ba468 
-Dec 23 10:11:36.495 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:12:02.430 HYPERVISOR: exec_cmd: nio create_udp udp-2c6f9d4d-1405-4389-aea4-be298234412c 10065 127.0.0.1 10066 
-Dec 23 10:12:02.432 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 1 0 udp-2c6f9d4d-1405-4389-aea4-be298234412c 
-Dec 23 10:12:02.432 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:12:06.679 HYPERVISOR: exec_cmd: nio create_udp udp-d164f539-098b-431c-afb2-d5ae389a3fb1 10071 127.0.0.1 10072 
-Dec 23 10:12:06.681 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 1 udp-d164f539-098b-431c-afb2-d5ae389a3fb1 
-Dec 23 10:12:06.681 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:23:03.037 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
-Dec 23 10:23:03.039 VM: VM Ghost created.
-Dec 23 10:23:03.039 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
-Dec 23 10:23:03.039 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
-Dec 23 10:23:03.040 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost' 
-Dec 23 10:23:03.040 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
-Dec 23 10:23:03.040 HYPERVISOR: exec_cmd: vm get_status Ghost 
-Dec 23 10:23:03.040 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
-Dec 23 10:23:03.040 HYPERVISOR: exec_cmd: vm start Ghost 
-Dec 23 10:23:03.085 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
-Dec 23 10:23:03.297 VM: VM Ghost shutdown.
-Dec 23 10:23:03.297 VM: VM Ghost destroyed.
-Dec 23 10:23:03.306 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:23:03.308 HYPERVISOR: exec_cmd: vm set_config Oeiras configs\i6_startup-config.cfg 
-Dec 23 10:23:03.308 HYPERVISOR: exec_cmd: vm start Oeiras 
-Dec 23 10:23:33.663 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
-Dec 23 10:27:00.146 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:27:00.223 HYPERVISOR: exec_cmd: vm set_idle_pc_online Oeiras 0 0x62cbf334 
-Dec 23 10:34:34.348 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
-Dec 23 10:52:04.357 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
-Dec 23 10:54:48.062 HYPERVISOR: exec_cmd: vm get_status Oeiras 
-Dec 23 10:54:48.062 HYPERVISOR: exec_cmd: vm stop Oeiras 
-Dec 23 10:54:48.204 VM: VM Oeiras shutdown.
-Dec 23 10:54:48.205 HYPERVISOR: exec_cmd: vm extract_config Oeiras 
-Dec 23 10:55:03.413 HYPERVISOR: Stopped.
-Dec 23 10:55:03.413 VM: VM Oeiras destroyed.
-Dec 23 10:55:03.440 GENERAL: reset done.
+Jan 01 15:38:25.315 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 01 15:38:25.316 HYPERVISOR: Started on IP = localhost, TCP port = 56472.
+Jan 01 15:38:25.806 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 01 15:38:25.806 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
+Jan 01 15:38:25.806 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
+Jan 01 15:38:25.807 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\b8b80f1e-1819-47b5-981b-741eb426a24d 
+Jan 01 15:38:25.807 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\b8b80f1e-1819-47b5-981b-741eb426a24d
+Jan 01 15:38:25.807 HYPERVISOR: exec_cmd: vm create Oeiras 6 c7200 
+Jan 01 15:38:25.808 VM: VM Oeiras created.
+Jan 01 15:38:25.808 HYPERVISOR: exec_cmd: vm set_con_tcp_port Oeiras 5007 
+Jan 01 15:38:25.808 HYPERVISOR: exec_cmd: c7200 get_mac_addr Oeiras 
+Jan 01 15:38:25.808 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:25.809 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-FE 
+Jan 01 15:38:25.809 HYPERVISOR: exec_cmd: vm set_disk0 Oeiras 0 
+Jan 01 15:38:25.809 HYPERVISOR: exec_cmd: vm set_exec_area Oeiras 64 
+Jan 01 15:38:25.809 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:25.810 HYPERVISOR: exec_cmd: vm set_idle_pc Oeiras 0x62cbf334 
+Jan 01 15:38:25.810 HYPERVISOR: exec_cmd: vm set_ios Oeiras C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 01 15:38:25.810 HYPERVISOR: exec_cmd: c7200 set_mac_addr Oeiras ca06.17f0.0000 
+Jan 01 15:38:25.811 HYPERVISOR: exec_cmd: vm set_nvram Oeiras 512 
+Jan 01 15:38:25.811 HYPERVISOR: exec_cmd: vm set_ram Oeiras 512 
+Jan 01 15:38:25.811 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:25.811 HYPERVISOR: exec_cmd: vm slot_remove_binding Oeiras 0 0 
+Jan 01 15:38:25.811 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:25.811 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 0 0 C7200-IO-2FE 
+Jan 01 15:38:25.812 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:25.812 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 1 0 PA-2FE-TX 
+Jan 01 15:38:25.812 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:25.812 HYPERVISOR: exec_cmd: vm slot_add_binding Oeiras 2 0 PA-2FE-TX 
+Jan 01 15:38:35.175 HYPERVISOR: exec_cmd: nio create_udp udp-384e9728-44ac-4a8c-9f4f-4f72a4767683 10046 127.0.0.1 10047 
+Jan 01 15:38:35.392 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 0 udp-384e9728-44ac-4a8c-9f4f-4f72a4767683 
+Jan 01 15:38:35.393 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:35.735 HYPERVISOR: exec_cmd: nio create_udp udp-fe081b5b-57cd-4998-aa3e-5846883d3039 10056 127.0.0.1 10057 
+Jan 01 15:38:35.737 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 1 0 udp-fe081b5b-57cd-4998-aa3e-5846883d3039 
+Jan 01 15:38:35.737 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:36.014 HYPERVISOR: exec_cmd: nio create_udp udp-c2f2216d-8b2f-4eab-91e5-9ee12b9d6cfe 10062 127.0.0.1 10063 
+Jan 01 15:38:36.015 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Oeiras 0 1 udp-c2f2216d-8b2f-4eab-91e5-9ee12b9d6cfe 
+Jan 01 15:38:36.016 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:40.907 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 01 15:38:40.908 VM: VM Ghost created.
+Jan 01 15:38:40.917 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 01 15:38:40.917 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 01 15:38:40.917 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost' 
+Jan 01 15:38:40.918 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 01 15:38:40.918 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 01 15:38:40.918 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jan 01 15:38:40.918 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 01 15:38:40.939 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 01 15:38:41.154 VM: VM Ghost shutdown.
+Jan 01 15:38:41.154 VM: VM Ghost destroyed.
+Jan 01 15:38:41.161 HYPERVISOR: exec_cmd: vm get_status Oeiras 
+Jan 01 15:38:41.163 HYPERVISOR: exec_cmd: vm set_config Oeiras configs\i6_startup-config.cfg configs\i6_private-config.cfg 
+Jan 01 15:38:41.163 HYPERVISOR: exec_cmd: vm start Oeiras 
+Jan 01 15:39:11.608 HYPERVISOR: exec_cmd: vm extract_config Oeiras 

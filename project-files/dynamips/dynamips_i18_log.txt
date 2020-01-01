@@ -1,12 +1,9 @@
-Dec 23 10:13:02.085 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Dec 23 10:13:02.085 HYPERVISOR: Started on IP = localhost, TCP port = 56385.
-Dec 23 10:13:02.574 HYPERVISOR: exec_cmd: hypervisor version 
-Dec 23 10:13:02.574 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips 
-Dec 23 10:13:02.574 GENERAL: working_dir=C:\Users\jpbje\GNS3\projects\ara-project\project-files\dynamips
-Dec 23 10:13:02.575 HYPERVISOR: exec_cmd: ethsw create Switch4 
-Dec 23 10:13:30.856 HYPERVISOR: exec_cmd: ethsw rename Switch4 netC 
-Dec 23 10:20:03.586 HYPERVISOR: exec_cmd: nio create_udp udp-61327800-ba0d-4b92-894e-5262e49205a3 10110 127.0.0.1 10109 
-Dec 23 10:20:03.586 HYPERVISOR: exec_cmd: ethsw add_nio netC udp-61327800-ba0d-4b92-894e-5262e49205a3 
-Dec 23 10:20:03.598 HYPERVISOR: exec_cmd: ethsw set_access_port netC udp-61327800-ba0d-4b92-894e-5262e49205a3 1 
-Dec 23 10:55:03.413 HYPERVISOR: Stopped.
-Dec 23 10:55:03.430 GENERAL: reset done.
+Jan 01 15:38:30.583 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 01 15:38:30.584 HYPERVISOR: Started on IP = localhost, TCP port = 56509.
+Jan 01 15:38:31.073 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 01 15:38:31.073 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
+Jan 01 15:38:31.073 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
+Jan 01 15:38:31.074 HYPERVISOR: exec_cmd: ethsw create netC 
+Jan 01 15:38:37.377 HYPERVISOR: exec_cmd: nio create_udp udp-17d7756a-4cfd-4753-9d87-53c88ca9ceb4 10107 127.0.0.1 10106 
+Jan 01 15:38:37.377 HYPERVISOR: exec_cmd: ethsw add_nio netC udp-17d7756a-4cfd-4753-9d87-53c88ca9ceb4 
+Jan 01 15:38:37.383 HYPERVISOR: exec_cmd: ethsw set_access_port netC udp-17d7756a-4cfd-4753-9d87-53c88ca9ceb4 1 

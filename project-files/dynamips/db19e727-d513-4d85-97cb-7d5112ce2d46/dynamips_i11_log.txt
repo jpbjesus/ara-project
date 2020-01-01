@@ -1,0 +1,36 @@
+Dec 23 11:03:15.678 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 23 11:03:15.679 HYPERVISOR: Started on IP = localhost, TCP port = 61912.
+Dec 23 11:03:16.166 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 23 11:03:16.166 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
+Dec 23 11:03:16.166 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
+Dec 23 11:03:16.167 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\6c8b941e-52a9-4bb0-9aef-7c1f363d1c13 
+Dec 23 11:03:16.167 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips\6c8b941e-52a9-4bb0-9aef-7c1f363d1c13
+Dec 23 11:03:16.167 HYPERVISOR: exec_cmd: vm create EmpA2 9 c7200 
+Dec 23 11:03:16.180 VM: VM EmpA2 created.
+Dec 23 11:03:16.180 HYPERVISOR: exec_cmd: vm set_con_tcp_port EmpA2 5010 
+Dec 23 11:03:16.180 HYPERVISOR: exec_cmd: c7200 get_mac_addr EmpA2 
+Dec 23 11:03:16.181 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:16.181 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA2 0 0 C7200-IO-FE 
+Dec 23 11:03:16.181 HYPERVISOR: exec_cmd: vm set_disk0 EmpA2 0 
+Dec 23 11:03:16.181 HYPERVISOR: exec_cmd: vm set_exec_area EmpA2 64 
+Dec 23 11:03:16.182 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:16.182 HYPERVISOR: exec_cmd: vm set_idle_pc EmpA2 0x62cbf334 
+Dec 23 11:03:16.182 HYPERVISOR: exec_cmd: vm set_ios EmpA2 C:/Users/jpbje/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 23 11:03:16.183 HYPERVISOR: exec_cmd: c7200 set_mac_addr EmpA2 ca09.2d4c.0000 
+Dec 23 11:03:16.183 HYPERVISOR: exec_cmd: vm set_nvram EmpA2 512 
+Dec 23 11:03:16.183 HYPERVISOR: exec_cmd: vm set_ram EmpA2 512 
+Dec 23 11:03:16.184 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:16.184 HYPERVISOR: exec_cmd: vm slot_remove_binding EmpA2 0 0 
+Dec 23 11:03:16.184 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:16.184 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA2 0 0 C7200-IO-2FE 
+Dec 23 11:03:16.185 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:16.185 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA2 1 0 PA-2FE-TX 
+Dec 23 11:03:16.185 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:16.185 HYPERVISOR: exec_cmd: vm slot_add_binding EmpA2 2 0 PA-2FE-TX 
+Dec 23 11:03:22.609 HYPERVISOR: exec_cmd: vm get_status EmpA2 
+Dec 23 11:03:22.614 HYPERVISOR: exec_cmd: vm extract_config EmpA2 
+Dec 23 11:03:22.619 HYPERVISOR: exec_cmd: vm delete EmpA2 
+Dec 23 11:03:22.619 VM: VM EmpA2 destroyed.
+Dec 23 11:03:22.639 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 23 11:03:22.671 HYPERVISOR: Stopped.
+Dec 23 11:03:22.671 GENERAL: reset done.
