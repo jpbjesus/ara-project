@@ -1,9 +1,0 @@
-Jan 01 15:38:31.624 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
-Jan 01 15:38:31.625 HYPERVISOR: Started on IP = localhost, TCP port = 56520.
-Jan 01 15:38:32.113 HYPERVISOR: exec_cmd: hypervisor version 
-Jan 01 15:38:32.113 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
-Jan 01 15:38:32.113 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
-Jan 01 15:38:32.114 HYPERVISOR: exec_cmd: ethsw create netB1 
-Jan 01 15:38:36.941 HYPERVISOR: exec_cmd: nio create_udp udp-b0851769-49a9-4db6-9564-44e37f52a4bd 10083 127.0.0.1 10082 
-Jan 01 15:38:36.942 HYPERVISOR: exec_cmd: ethsw add_nio netB1 udp-b0851769-49a9-4db6-9564-44e37f52a4bd 
-Jan 01 15:38:36.946 HYPERVISOR: exec_cmd: ethsw set_access_port netB1 udp-b0851769-49a9-4db6-9564-44e37f52a4bd 1 
