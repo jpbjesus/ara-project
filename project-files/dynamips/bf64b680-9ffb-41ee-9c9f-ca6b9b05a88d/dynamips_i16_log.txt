@@ -1,0 +1,13 @@
+Jan 03 11:17:49.773 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 03 11:17:49.774 HYPERVISOR: Started on IP = localhost, TCP port = 53240.
+Jan 03 11:17:50.267 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 03 11:17:50.267 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jpbje\Desktop\ara-project\project-files\dynamips 
+Jan 03 11:17:50.267 GENERAL: working_dir=C:\Users\jpbje\Desktop\ara-project\project-files\dynamips
+Jan 03 11:17:50.268 HYPERVISOR: exec_cmd: ethsw create netX1 
+Jan 03 11:18:00.786 HYPERVISOR: exec_cmd: nio create_udp udp-e2a4187f-1b13-4ef8-a288-9deb896357a4 10089 127.0.0.1 10088 
+Jan 03 11:18:00.786 HYPERVISOR: exec_cmd: ethsw add_nio netX1 udp-e2a4187f-1b13-4ef8-a288-9deb896357a4 
+Jan 03 11:18:00.804 HYPERVISOR: exec_cmd: ethsw set_access_port netX1 udp-e2a4187f-1b13-4ef8-a288-9deb896357a4 1 
+Jan 03 13:59:24.912 HYPERVISOR: exec_cmd: ethsw delete netX1 
+Jan 03 13:59:24.918 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 03 13:59:24.928 HYPERVISOR: Stopped.
+Jan 03 13:59:24.928 GENERAL: reset done.
